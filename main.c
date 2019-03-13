@@ -8,7 +8,7 @@
 #define BUFFER_SIZE 10
 
 sem_t mutex, producer, consumer;
-int *buffer[BUFFER_SIZE];
+int * buffer[BUFFER_SIZE];
 
 int main(int argc, char **argv)
 {
